@@ -1,0 +1,21 @@
+---
+wifi:
+  ssid: !secret wifi_ssid
+  password: !secret wifi_password
+  domain: .theclarkhome.com
+  ap: {}
+
+captive_portal:
+
+# Allow provisioning Wi-Fi via serial
+improv_serial:
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+  password: !secret_ephome_api_passsword
+
+ota:
+  password: !secret_ephome_api_passsword

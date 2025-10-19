@@ -1,0 +1,19 @@
+---
+
+esphome:
+  name: $devicename
+  firendly_name: $friendly_name
+
+esp32:
+  board: m5stack-atom
+
+uart:
+  tx_pin: GPIO19
+  rx_pin: GPIO22
+  baud_rate: 9600
+  parity: EVEN
+
+# Enable time component to reset energy at midnight
+time:
+  - platform: homeassistant
+    id: homeassistant_time
