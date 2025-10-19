@@ -1,1 +1,1 @@
-# esphome
+# Repository for esphome devices
