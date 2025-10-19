@@ -1,4 +1,4 @@
 # Repository for esphome devices
 
-##Note
+## Note
 The scerets file needs to be install separately.
